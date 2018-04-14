@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed');
+
+body {
+    background-color: lemonchiffon;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h1, h2 {
+    color: rgb(111, 150, 236);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align:center;
+    text-decoration: underline;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+#description {
+    color: paleturquoise;
+}
+
+header {
+    border-bottom: 2px dotted blue;
+    border-top: 2px dotted blue;
+    background-color: goldenrod;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+ul {
+    border: 3px solid seagreen;
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.bird {
+    color: blue;
+    font-style: italic;
+}
+ .mammal {
+     color: red;
+     font-weight: bold;
+ }
+
+ .fish { 
+     color: orange;
+     text-decoration: underline;
+ }
+
+ .sloth {
+     background-color: grey;
+ }
+
+ .tiger {
+     background-color: sienna;
+ }
+
+ .salmon {
+     background-color: salmon;
+ }
+
+ .sheep {
+     background-color: steelblue;
+ }
+
+ section {
+    background-color: pink;
+    font-size: 30px;
+    font-weight: lighter;
+    border: 3px dotted plum;
+    border-radius: 5px;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer {
+    background-color: grey;
+}
